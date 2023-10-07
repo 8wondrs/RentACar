@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d03ed8d.css",
-    "main.js": "/static/js/main.b3b53778.js",
-    "index.html": "/index.html",
-    "main.1d03ed8d.css.map": "/static/css/main.1d03ed8d.css.map",
-    "main.b3b53778.js.map": "/static/js/main.b3b53778.js.map"
+    "main.css": "/RentACar/static/css/main.1d03ed8d.css",
+    "main.js": "/RentACar/static/js/main.b3b53778.js",
+    "index.html": "/RentACar/index.html",
+    "main.1d03ed8d.css.map": "/RentACar/static/css/main.1d03ed8d.css.map",
+    "main.b3b53778.js.map": "/RentACar/static/js/main.b3b53778.js.map"
   },
   "entrypoints": [
     "static/css/main.1d03ed8d.css",
