@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/RentACar/static/css/main.885ada33.css",
-    "main.js": "/RentACar/static/js/main.50fef45c.js",
+    "main.js": "/RentACar/static/js/main.d8eb3b98.js",
     "static/media/heart-normal.svg": "/RentACar/static/media/heart-normal.282d936f414f4c6884ab9306a91dad67.svg",
     "static/media/heart-active.svg": "/RentACar/static/media/heart-active.97847e9195943f61800c97807e735d4f.svg",
     "index.html": "/RentACar/index.html",
     "static/media/close.svg": "/RentACar/static/media/close.70f65c7e87a4e1e47d5b73074981fa46.svg",
     "main.885ada33.css.map": "/RentACar/static/css/main.885ada33.css.map",
-    "main.50fef45c.js.map": "/RentACar/static/js/main.50fef45c.js.map"
+    "main.d8eb3b98.js.map": "/RentACar/static/js/main.d8eb3b98.js.map"
   },
   "entrypoints": [
     "static/css/main.885ada33.css",
-    "static/js/main.50fef45c.js"
+    "static/js/main.d8eb3b98.js"
   ]
 }
