@@ -1,4 +1,4 @@
-import { Navigate, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Main from '../pages/Main/Main';
 import Catalog from '../pages/Catalog/Catalog';
 import Favorites from '../pages/Favorites/Favorites';
@@ -11,7 +11,7 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/favorites" element={<Favorites />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<Main />} />
       </Route>
     </Routes>
   );
