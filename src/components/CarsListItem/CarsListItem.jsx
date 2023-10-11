@@ -18,8 +18,6 @@ import {
   HeartIconStyle,
 } from './CarsListItem.styled';
 
-const DEFAULT_URL = '../../images/background/cover.jpeg';
-
 export const CarsListItem = ({
   id,
   make,
@@ -47,7 +45,6 @@ export const CarsListItem = ({
     dispatch(deleteFavorite(favId));
   };
 
-  const imageUrl = img || DEFAULT_URL;
   const addressParts = address.split(',');
 
   const isFavorite = favorites.includes(id);
@@ -63,7 +60,7 @@ export const CarsListItem = ({
       <Item>
         <InfoWrap>
           {heartIcon}
-          <Image src={imageUrl} alt={make} loading="lazy" width="274" />
+          <Image src={img} alt={make} loading="lazy" width="274" />
           <TitleWrap>
             <Title>
               {make} <Span>{model}, </Span>
